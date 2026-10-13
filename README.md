@@ -8,7 +8,11 @@ Watch the [Electrics & Electronics playlist](https://www.youtube.com/playlist?li
 
 | Example | Software | Project and documentation | Video |
 | --- | --- | --- | --- |
-| AND, OR and NOT logic gates | Proteus ISIS | [Open the example](https://github.com/malikepoglu/Electric-and-Electronic-Works/tree/main/examples/and-or-not-logic-gates) | [Watch the simulation](https://www.youtube.com/watch?v=Hm5eN4HZ_IM) |
+| AND, OR and NOT logic gates | Proteus ISIS | [Open the example](https://github.com/malikepoglu/Electric-and-Electronic-Works/tree/main/and-or-not-logic-gates) | [Watch the simulation](https://www.youtube.com/watch?v=Hm5eN4HZ_IM) |
+
+## Repository structure
+
+Each video has its own directory directly in the repository root. Its native project, README and supporting files stay together. YouTube descriptions link directly to that video’s directory.
 
 ## Using the projects
 
