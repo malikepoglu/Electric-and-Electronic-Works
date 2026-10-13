@@ -1,0 +1,31 @@
+# Proteus local workspaces, backups and generated simulation data
+*.workspace
+*.workspace.*
+*.pdsbak
+*.pdsbak.*
+*.bak
+*.backup
+*.tmp
+*.log
+*.err
+*.LST
+*.lst
+*.sdf
+*.SDI
+*.sdi
+*.DBK
+*.dbk
+Backup/
+Backups/
+backup/
+backups/
+Cache/
+cache/
+
+# Local operating system and editor state
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.vscode/
+.idea/

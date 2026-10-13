@@ -1,0 +1,11 @@
+gate,A,B,expected_Q,video_observed_Q,native_observed_Q,native_test_status
+AND,0,0,0,0,,not_tested
+AND,0,1,0,0,,not_tested
+AND,1,0,0,0,,not_tested
+AND,1,1,1,1,,not_tested
+OR,0,0,0,0,,not_tested
+OR,0,1,1,1,,not_tested
+OR,1,0,1,1,,not_tested
+OR,1,1,1,1,,not_tested
+NOT,0,,1,1,,not_tested
+NOT,1,,0,0,,not_tested
