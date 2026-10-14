@@ -1,0 +1,17 @@
+decimal_input,D,C,B,A,valid_bcd,expected_lit_segments,expected_7447_abcdefg,expected_7448_abcdefg,video_7447_lit_segments,video_7448_lit_segments,native_7447_lit_segments,native_7448_lit_segments,native_test_status
+0,0,0,0,0,yes,abcdef,0000001,1111110,abcdef,abcdef,,,not_tested
+1,0,0,0,1,yes,bc,1001111,0110000,bc,bc,,,not_tested
+2,0,0,1,0,yes,abdeg,0010010,1101101,abdeg,abdeg,,,not_tested
+3,0,0,1,1,yes,abcdg,0000110,1111001,abcdg,abcdg,,,not_tested
+4,0,1,0,0,yes,bcfg,1001100,0110011,bcfg,bcfg,,,not_tested
+5,0,1,0,1,yes,acdfg,0100100,1011011,acdfg,acdfg,,,not_tested
+6,0,1,1,0,yes,cdefg,1100000,0011111,cdefg,cdefg,,,not_tested
+7,0,1,1,1,yes,abc,0001111,1110000,abc,abc,,,not_tested
+8,1,0,0,0,yes,abcdefg,0000000,1111111,abcdefg,abcdefg,,,not_tested
+9,1,0,0,1,yes,abcfg,0001100,1110011,abcfg,abcfg,,,not_tested
+10,1,0,1,0,no,deg,1110010,0001101,deg,deg,,,not_tested
+11,1,0,1,1,no,cdg,1100110,0011001,cdg,cdg,,,not_tested
+12,1,1,0,0,no,bfg,1011100,0100011,bfg,bfg,,,not_tested
+13,1,1,0,1,no,adfg,0110100,1001011,adfg,adfg,,,not_tested
+14,1,1,1,0,no,defg,1110000,0001111,defg,defg,,,not_tested
+15,1,1,1,1,no,none,1111111,0000000,none,none,,,not_tested
