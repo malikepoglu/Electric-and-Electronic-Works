@@ -52,6 +52,15 @@ For a future native verification, record the actual Proteus version, open an unc
 ## Related material
 
 - [Video](https://www.youtube.com/watch?v=Mk2JOF9l-y0)
-- [TI BCD-to-Seven-Segment Decoders/Drivers, SDLS111](https://www.ti.com/lit/ds/symlink/sn7447a.pdf), particularly the character and function tables on pages 3–4
+- [TI 7447 and 7448 BCD-to-Seven-Segment Decoders/Drivers, SDLS111](https://www.ti.com/lit/ds/symlink/sn7447a.pdf), covering both decoder types; particularly the character and function tables on pages 3–4
 - [Electrics & Electronics playlist](https://www.youtube.com/playlist?list=PLxVfiwCv5VsTB3PJYlwFLmNxNQshJskvc)
 - [Project index](../README.md)
+
+## Display reference examples
+
+The video and original project use generic Proteus common-anode and common-cathode display models, rather than an identified physical display part. These manufacturer datasheets illustrate the two connection types; they do not identify the simulated devices or establish hardware compatibility with this circuit.
+
+- [Kingbright SA56-11EWA — common-anode seven-segment display](https://www.kingbrightusa.com/images/catalog/SPEC/sa56-11ewa.pdf)
+- [Kingbright SC56-11EWA — common-cathode seven-segment display](https://www.kingbrightusa.com/images/catalog/spec/sc56-11ewa.pdf)
+
+For the simulated common-anode arrangement, the display common connects to +5 V; for the common-cathode arrangement, it connects to GND. Refer to the exact physical part's pinout and ratings when moving beyond the simulation.
