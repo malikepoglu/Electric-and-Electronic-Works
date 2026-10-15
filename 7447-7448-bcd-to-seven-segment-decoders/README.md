@@ -53,7 +53,7 @@ For a future native verification, record the actual Proteus version, open an unc
 
 - [Video](https://www.youtube.com/watch?v=Mk2JOF9l-y0)
 - [TI 7447 and 7448 BCD-to-Seven-Segment Decoders/Drivers, SDLS111](https://www.ti.com/lit/ds/symlink/sn7447a.pdf), covering both decoder types; particularly the character and function tables on pages 3–4
-- [Electrics & Electronics playlist](https://www.youtube.com/playlist?list=PLxVfiwCv5VsTB3PJYlwFLmNxNQshJskvc)
+- [Electricity & Electronics playlist](https://www.youtube.com/playlist?list=PLxVfiwCv5VsTB3PJYlwFLmNxNQshJskvc)
 - [Project index](../README.md)
 
 ## Display reference examples

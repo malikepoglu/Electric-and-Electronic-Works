@@ -44,5 +44,5 @@ This example demonstrates Boolean behavior in simulation. It does not establish 
 ## Related material
 
 - [Video](https://www.youtube.com/watch?v=Hm5eN4HZ_IM)
-- [Electrics & Electronics playlist](https://www.youtube.com/playlist?list=PLxVfiwCv5VsTB3PJYlwFLmNxNQshJskvc)
+- [Electricity & Electronics playlist](https://www.youtube.com/playlist?list=PLxVfiwCv5VsTB3PJYlwFLmNxNQshJskvc)
 - [Project index](../README.md)
