@@ -1,6 +1,6 @@
-# AND, OR and NOT Logic Gates
+# AND, OR & NOT Logic Gates and Truth Tables | Proteus ISIS
 
-A Proteus ISIS example by **Mehmet Ali Kepoglu**, accompanying the [AND, OR and NOT logic-gates video](https://www.youtube.com/watch?v=Hm5eN4HZ_IM).
+A Proteus ISIS example by **Mehmet Ali Kepoglu**, accompanying the [AND, OR & NOT Logic Gates and Truth Tables | Proteus ISIS](https://www.youtube.com/watch?v=Hm5eN4HZ_IM).
 
 Three independent circuits demonstrate the basic Boolean operations:
 

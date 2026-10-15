@@ -1,6 +1,6 @@
-# 7447 and 7448 BCD-to-Seven-Segment Display Decoders
+# 7447 vs 7448 BCD to 7-Segment Decoders | Proteus ISIS
 
-A Proteus ISIS example by **Mehmet Ali Kepoglu**, accompanying the [7447 / 7448 comparison video](https://www.youtube.com/watch?v=Mk2JOF9l-y0).
+A Proteus ISIS example by **Mehmet Ali Kepoglu**, accompanying the [7447 vs 7448 BCD to 7-Segment Decoders | Proteus ISIS](https://www.youtube.com/watch?v=Mk2JOF9l-y0).
 
 The same four input controls drive two decoder/display combinations:
 
