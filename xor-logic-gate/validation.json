@@ -1,0 +1,60 @@
+{
+  "archive_crc": "PASS",
+  "xml_parse": "PASS",
+  "entries": [
+    "PROJECT.XML",
+    "ROOT.CDB",
+    "ROOT.DSN",
+    "SCRIPTS/PWRRAILS.DAT"
+  ],
+  "native_bytes": 13523,
+  "sha256": "2225e7530b9cb2baf4f45d603750083d38be7f9f1d7ef250ab5c74341fa8a54f",
+  "project_release_identifier": "804",
+  "project_file_version_identifier": "805",
+  "model_file_identifiers": [],
+  "placed_section_primitive_properties": [
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,XOR_2}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,OR_2}",
+    "{PRIMITIVE=DIGITAL,NAND_2}",
+    "{PRIMITIVE=DIGITAL,AND_2}",
+    "{PRIMITIVE=DIGITAL,NAND_2}",
+    "{PRIMITIVE=DIGITAL,NAND_2}",
+    "{PRIMITIVE=DIGITAL,NAND_2}",
+    "{PRIMITIVE=DIGITAL,NAND_2}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}"
+  ],
+  "placed_section_model_value_properties": [],
+  "runtime_open_run_save_reopen": "NOT_TESTED",
+  "inspection_scope": "Archive integrity, XML syntax and embedded design identifiers only; not a simulation or complete netlist validation.",
+  "video_id": "wpsi6ThjZQI",
+  "video_url": "https://www.youtube.com/watch?v=wpsi6ThjZQI",
+  "project_file": "Logic_Gate_XOR.pdsprj",
+  "source_bytes_preserved": true,
+  "video_content_correlation_checks": [
+    {
+      "check": "XOR primitive",
+      "pass": true
+    },
+    {
+      "check": "OR primitive",
+      "pass": true
+    },
+    {
+      "check": "AND primitive",
+      "pass": true
+    },
+    {
+      "check": "five NAND primitives",
+      "pass": true
+    },
+    {
+      "check": "two original formula strings",
+      "pass": true
+    }
+  ],
+  "retained_annotation_note": "Two original formula text strings retained. Overbars are separate graphics and their scope cannot be established from raw text alone. README gives corrected middle expression and recording erratum. Original native bytes preserved."
+}

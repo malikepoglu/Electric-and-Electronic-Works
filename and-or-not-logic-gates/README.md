@@ -14,7 +14,8 @@ Each circuit has its own input controls. The repeated A and B labels do not mean
 
 - [`Logic_Gates_AND_OR_NOT.pdsprj`](Logic_Gates_AND_OR_NOT.pdsprj) — the author's original Proteus project, copied without changing its bytes.
 - [`truth-table.csv`](truth-table.csv) — expected outputs, stable observations from the video and separate fields for future native test results.
-- [`SHA256SUMS`](SHA256SUMS) — checksums for the project and truth-table CSV.
+- [`validation.json`](validation.json) — static archive integrity checks; native simulator tests remain `NOT_TESTED`.
+- [`SHA256SUMS`](SHA256SUMS) — checksums for the project, truth-table CSV and this README.
 
 The `.pdsprj` file contains the project design and its embedded project resources. No separate workspace, backup, simulator installer or third-party library bundle is supplied.
 
@@ -44,5 +45,5 @@ This example demonstrates Boolean behavior in simulation. It does not establish 
 ## Related material
 
 - [Video](https://www.youtube.com/watch?v=Hm5eN4HZ_IM)
-- [Electricity & Electronics playlist](https://www.youtube.com/playlist?list=PLxVfiwCv5VsTB3PJYlwFLmNxNQshJskvc)
+- [Electrical & Electronic Systems playlist](https://www.youtube.com/playlist?list=PLxVfiwCv5VsTB3PJYlwFLmNxNQshJskvc)
 - [Project index](../README.md)

@@ -1,0 +1,46 @@
+{
+  "archive_crc": "PASS",
+  "xml_parse": "PASS",
+  "entries": [
+    "PROJECT.XML",
+    "ROOT.CDB",
+    "ROOT.DSN",
+    "SCRIPTS/PWRRAILS.DAT"
+  ],
+  "native_bytes": 12735,
+  "sha256": "1fd73101f5da48c7ff73b64c00c1d6e586e7ef3e68c76aa02191e96dd2e82f85",
+  "project_release_identifier": "804",
+  "project_file_version_identifier": "805",
+  "model_file_identifiers": [],
+  "placed_section_primitive_properties": [
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,AND_2}",
+    "{PRIMITIVE=DIGITAL,NAND_2}",
+    "{PRIMITIVE=DIGITAL,INVERTER}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}"
+  ],
+  "placed_section_model_value_properties": [],
+  "runtime_open_run_save_reopen": "NOT_TESTED",
+  "inspection_scope": "Archive integrity, XML syntax and embedded design identifiers only; not a simulation or complete netlist validation.",
+  "video_id": "J-uxkaq9AeI",
+  "video_url": "https://www.youtube.com/watch?v=J-uxkaq9AeI",
+  "project_file": "Logic_Gate_NAND.pdsprj",
+  "source_bytes_preserved": true,
+  "video_content_correlation_checks": [
+    {
+      "check": "NAND primitive",
+      "pass": true
+    },
+    {
+      "check": "AND primitive",
+      "pass": true
+    },
+    {
+      "check": "inverter primitive",
+      "pass": true
+    }
+  ],
+  "retained_annotation_note": "Stored XNOR annotation in placed-design section; native editor visible position NOT_TESTED. This is disclosed in the README; original source bytes preserved."
+}

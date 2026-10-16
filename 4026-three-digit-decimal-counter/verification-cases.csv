@@ -1,0 +1,8 @@
+case,expected_behavior,video_time_window_seconds,video_observation,scope_note,native_observation,native_test_status
+count,009 -> 010,4.542-4.832,009 -> 010,observed carry,,NOT_TESTED
+count,099 -> 100,15.9-16.4,099 -> 100,observed carry,,NOT_TESTED
+reset HIGH,000,52.1-52.6,379 -> 000,shared active-HIGH reset,,NOT_TESTED
+reset held HIGH,000,52.6-54.6,000,held at zero,,NOT_TESTED
+reset released,count resumes,54.4-54.9,000 -> 002,001 was not captured in the selected samples,,NOT_TESTED
+full range,000-999,,,capacity of the topology; not a completed video test,,NOT_TESTED
+rollover,999 -> 000,,,not shown in the recording,,NOT_TESTED

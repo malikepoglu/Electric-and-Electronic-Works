@@ -1,0 +1,7 @@
+phase,video_time_window_seconds,displayed_base_path_current_mA,displayed_VBE_V,displayed_LED_voltage_V,displayed_source_return_current_mA,video_LED_observation,native_observation,native_test_status
+after charge,10.939-11.137,0.78,0.81,2.24,13.4,bright red,,NOT_TESTED
+current plateau,41.347-41.505,0.07,0.75,2.24,13.2,bright,,NOT_TESTED
+current decreasing,48.770-48.950,0.04,0.74,2.22,9.07,dimming,,NOT_TESTED
+low current,87.205-87.252,0.00,0.67,2.18,1.04,reduced brightness,,NOT_TESTED
+long discharge tail,201.524-201.561,,0.62,2.01,0.13,dark,,NOT_TESTED
+manual reset,209.272-209.411,0.00,0.00,0.00,0.00,dark,,NOT_TESTED

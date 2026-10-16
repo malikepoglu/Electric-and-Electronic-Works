@@ -1,0 +1,35 @@
+{
+  "archive_crc": "PASS",
+  "xml_parse": "PASS",
+  "entries": [
+    "PROJECT.XML",
+    "ROOT.CDB",
+    "ROOT.DSN",
+    "SCRIPTS/PWRRAILS.DAT"
+  ],
+  "native_bytes": 13047,
+  "sha256": "737a4cdc790ede168e74735060f0e8b1f58023c5e8c84be91e2992f5b50cd145",
+  "project_release_identifier": "804",
+  "project_file_version_identifier": "805",
+  "model_file_identifiers": [],
+  "placed_section_primitive_properties": [
+    "{PRIMITIVE=DIGITAL,AND_2}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,OR_2}",
+    "{PRIMITIVE=DIGITAL,INVERTER}",
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}"
+  ],
+  "placed_section_model_value_properties": [],
+  "runtime_open_run_save_reopen": "NOT_TESTED",
+  "inspection_scope": "Archive integrity, XML syntax and embedded design identifiers only; not a simulation or complete netlist validation.",
+  "video_id": "Hm5eN4HZ_IM",
+  "video_url": "https://www.youtube.com/watch?v=Hm5eN4HZ_IM",
+  "project_file": "Logic_Gates_AND_OR_NOT.pdsprj",
+  "source_bytes_preserved": true
+}

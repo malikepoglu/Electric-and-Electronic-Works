@@ -1,0 +1,5 @@
+A,B,expected_Q,video_sample_seconds,video_observed_Q1,video_observed_Q2,video_observed_Q3,native_observed_Q,native_test_status
+0,0,1,6.225,1,1,1,,NOT_TESTED
+0,1,0,15.880,0,0,0,,NOT_TESTED
+1,0,0,10.051,0,0,0,,NOT_TESTED
+1,1,1,22.877,1,1,1,,NOT_TESTED

@@ -1,0 +1,15 @@
+display_type,closed_resistor_branches,expected_lit_segments,video_sample_seconds,video_observed_lit_segments,scope_note,native_observation,native_test_status
+common_anode,R1,a,9.018,a,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_anode,R1;R2,ab,13.470,ab,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_anode,R1;R2;R3,abc,17.550,abc,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_anode,R1;R2;R3;R4,abcd,21.820,abcd,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_anode,R1;R2;R3;R4;R5,abcde,26.973,abcde,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_anode,R1;R2;R3;R4;R5;R6,abcdef,30.427,abcdef,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_anode,R1;R2;R3;R4;R5;R6;R7,abcdefg,32.526,abcdefg,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_cathode,R8,a,37.651,a,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_cathode,R8;R9,ab,44.489,ab,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_cathode,R8;R9;R10,abc,48.727,abc,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_cathode,R8;R9;R10;R11,abcd,52.577,abcd,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_cathode,R8;R9;R10;R11;R12,abcde,56.793,abcde,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_cathode,R8;R9;R10;R11;R12;R13,abcdef,60.981,abcdef,cumulative segment set; not an isolated-segment test,,NOT_TESTED
+common_cathode,R8;R9;R10;R11;R12;R13;R14,abcdefg,61.991,abcdefg,cumulative segment set; not an isolated-segment test,,NOT_TESTED

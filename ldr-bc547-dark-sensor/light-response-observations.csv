@@ -1,0 +1,5 @@
+action,video_time_window_seconds,expected_LDR_resistance_direction,expected_base_drive_direction,video_LED_observation,native_observation,native_test_status
+increase illumination,7.448-8.425,decreases,decreases,dims then turns off,,NOT_TESTED
+decrease illumination,13.066-13.657,increases,increases,turns on again,,NOT_TESTED
+increase illumination,18.591-19.189,decreases,decreases,dims then turns off,,NOT_TESTED
+decrease illumination,22.604-23.098,increases,increases,turns on again,,NOT_TESTED

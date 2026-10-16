@@ -1,0 +1,64 @@
+{
+  "archive_crc": "PASS",
+  "xml_parse": "PASS",
+  "entries": [
+    "PROJECT.XML",
+    "ROOT.CDB",
+    "ROOT.DSN",
+    "SCRIPTS/PWRRAILS.DAT"
+  ],
+  "native_bytes": 13530,
+  "sha256": "f02822493b178c84e7baa1a34e07c5125f588673e31d08cedcf1b12c9e3ebd8f",
+  "project_release_identifier": "804",
+  "project_file_version_identifier": "805",
+  "model_file_identifiers": [
+    "40XOR2.MDF",
+    "ITFMOD.MDF"
+  ],
+  "placed_section_primitive_properties": [
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,XOR_2}",
+    "{PRIMITIVE=DIGITAL,INVERTER}",
+    "{PRIMITIVE=DIGITAL,AND_2}",
+    "{PRIMITIVE=DIGITAL,AND_2}",
+    "{PRIMITIVE=DIGITAL,INVERTER}",
+    "{PRIMITIVE=DIGITAL,INVERTER}",
+    "{PRIMITIVE=DIGITAL,OR_2}"
+  ],
+  "placed_section_model_value_properties": [
+    "{MODFILE=40XOR2}",
+    "{VOLTAGE=5V}"
+  ],
+  "runtime_open_run_save_reopen": "NOT_TESTED",
+  "inspection_scope": "Archive integrity, XML syntax and embedded design identifiers only; not a simulation or complete netlist validation.",
+  "video_id": "8SSDGAATYSk",
+  "video_url": "https://www.youtube.com/watch?v=8SSDGAATYSk",
+  "project_file": "Logic_Gate_XNOR.pdsprj",
+  "source_bytes_preserved": true,
+  "video_content_correlation_checks": [
+    {
+      "check": "4077 value and 40XOR2 model",
+      "pass": true
+    },
+    {
+      "check": "XOR primitive",
+      "pass": true
+    },
+    {
+      "check": "three inverters",
+      "pass": true
+    },
+    {
+      "check": "two AND primitives",
+      "pass": true
+    },
+    {
+      "check": "OR primitive",
+      "pass": true
+    }
+  ]
+}

@@ -13,6 +13,7 @@ A=1, B=2, C=4 and D=8. Four-bit codes in the table are written **DCBA**, from th
 
 - [`7447_And_7448_BCD_To_7_Segment_Display_Decoder.pdsprj`](7447_And_7448_BCD_To_7_Segment_Display_Decoder.pdsprj) — the author's original project, copied without changing its bytes.
 - [`truth-table.csv`](truth-table.csv) — all 16 expected input patterns, stable observations from the video, and separate fields for future native test results.
+- [`validation.json`](validation.json) — static archive integrity checks; native simulator tests remain `NOT_TESTED`.
 - [`SHA256SUMS`](SHA256SUMS) — checksums for the project, table and this README.
 
 The project archive contains `PROJECT.XML`, `ROOT.CDB`, `ROOT.DSN` and `SCRIPTS/PWRRAILS.DAT`. Separate personal workspace files, backups, simulator installers and third-party library bundles are excluded.
@@ -53,7 +54,7 @@ For a future native verification, record the actual Proteus version, open an unc
 
 - [Video](https://www.youtube.com/watch?v=Mk2JOF9l-y0)
 - [TI 7447 and 7448 BCD-to-Seven-Segment Decoders/Drivers, SDLS111](https://www.ti.com/lit/ds/symlink/sn7447a.pdf), covering both decoder types; particularly the character and function tables on pages 3–4
-- [Electricity & Electronics playlist](https://www.youtube.com/playlist?list=PLxVfiwCv5VsTB3PJYlwFLmNxNQshJskvc)
+- [Electrical & Electronic Systems playlist](https://www.youtube.com/playlist?list=PLxVfiwCv5VsTB3PJYlwFLmNxNQshJskvc)
 - [Project index](../README.md)
 
 ## Display reference examples

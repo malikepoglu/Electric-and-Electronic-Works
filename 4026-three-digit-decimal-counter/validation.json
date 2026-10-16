@@ -1,0 +1,60 @@
+{
+  "archive_crc": "PASS",
+  "xml_parse": "PASS",
+  "entries": [
+    "PROJECT.XML",
+    "ROOT.CDB",
+    "ROOT.DSN",
+    "SCRIPTS/PWRRAILS.DAT"
+  ],
+  "native_bytes": 13468,
+  "sha256": "58591d8af7ffe6c56b508565ec4071c5e26ed811d0d1a62830dd5a39098296b2",
+  "project_release_identifier": "804",
+  "project_file_version_identifier": "805",
+  "model_file_identifiers": [
+    "4026.MDF",
+    "7SEGCOMK.MDF",
+    "ITFMOD.MDF"
+  ],
+  "placed_section_primitive_properties": [
+    "{PRIMITIVE=DIGITAL,RTDSTATE}"
+  ],
+  "placed_section_model_value_properties": [
+    "{VOLTAGE=5V}",
+    "{MODFILE=4026}",
+    "{CLOCK=10}",
+    "{VOLTAGE=5V}",
+    "{MODFILE=4026}",
+    "{MODFILE=7SEGCOMK}",
+    "{VF=1.5V}",
+    "{ION=10mA}",
+    "{MODFILE=7SEGCOMK}",
+    "{VF=1.5V}",
+    "{ION=10mA}",
+    "{VOLTAGE=5V}",
+    "{MODFILE=4026}",
+    "{MODFILE=7SEGCOMK}",
+    "{VF=1.5V}",
+    "{ION=10mA}"
+  ],
+  "runtime_open_run_save_reopen": "NOT_TESTED",
+  "inspection_scope": "Archive integrity, XML syntax and embedded design identifiers only; not a simulation or complete netlist validation.",
+  "video_id": "LptkMoCDSbk",
+  "video_url": "https://www.youtube.com/watch?v=LptkMoCDSbk",
+  "project_file": "0_999_Decimal_Counter_with_4026_and_7_Segment_Display.pdsprj",
+  "source_bytes_preserved": true,
+  "video_content_correlation_checks": [
+    {
+      "check": "three 4026 model instances",
+      "pass": true
+    },
+    {
+      "check": "three common-cathode models",
+      "pass": true
+    },
+    {
+      "check": "stored clock property 10",
+      "pass": true
+    }
+  ]
+}

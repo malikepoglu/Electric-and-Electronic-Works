@@ -1,0 +1,46 @@
+{
+  "archive_crc": "PASS",
+  "xml_parse": "PASS",
+  "entries": [
+    "PROJECT.XML",
+    "ROOT.CDB",
+    "ROOT.DSN",
+    "SCRIPTS/PWRRAILS.DAT"
+  ],
+  "native_bytes": 12658,
+  "sha256": "21ac2e9f8287ce1cc2b54f7edae28452bc858ec8c393e1a747eb2e0042e7e74a",
+  "project_release_identifier": "804",
+  "project_file_version_identifier": "805",
+  "model_file_identifiers": [],
+  "placed_section_primitive_properties": [
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,RTDSTATE}",
+    "{PRIMITIVE=DIGITAL,INVERTER}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,RTDPROBE}",
+    "{PRIMITIVE=DIGITAL,NOR_2}",
+    "{PRIMITIVE=DIGITAL,OR_2}"
+  ],
+  "placed_section_model_value_properties": [],
+  "runtime_open_run_save_reopen": "NOT_TESTED",
+  "inspection_scope": "Archive integrity, XML syntax and embedded design identifiers only; not a simulation or complete netlist validation.",
+  "video_id": "U60KyiAkisU",
+  "video_url": "https://www.youtube.com/watch?v=U60KyiAkisU",
+  "project_file": "Logic_Gate_NOR.pdsprj",
+  "source_bytes_preserved": true,
+  "video_content_correlation_checks": [
+    {
+      "check": "NOR primitive",
+      "pass": true
+    },
+    {
+      "check": "OR primitive",
+      "pass": true
+    },
+    {
+      "check": "inverter primitive",
+      "pass": true
+    }
+  ],
+  "retained_annotation_note": "Stored XNOR annotation in placed-design section; native editor visible position NOT_TESTED. This is disclosed in the README; original source bytes preserved."
+}

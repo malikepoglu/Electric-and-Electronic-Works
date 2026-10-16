@@ -1,0 +1,60 @@
+{
+  "archive_crc": "PASS",
+  "xml_parse": "PASS",
+  "entries": [
+    "PROJECT.XML",
+    "ROOT.CDB",
+    "ROOT.DSN",
+    "SCRIPTS/PWRRAILS.DAT"
+  ],
+  "native_bytes": 14432,
+  "sha256": "7868ba465ecc0ac648b7e41f71171873ebb665cb293f27c240612858607c15e2",
+  "project_release_identifier": "804",
+  "project_file_version_identifier": "805",
+  "model_file_identifiers": [
+    "BIPOLAR.MDF",
+    "LEDA.MDF"
+  ],
+  "placed_section_primitive_properties": [
+    "{PRIMITIVE=ANALOGUE,NPN}",
+    "{PRIMITIVE=ANALOGUE}",
+    "{PRIMITIVE=ANALOG,RTSWITCH}",
+    "{PRIMITIVE=ANALOGUE}",
+    "{PRIMITIVE=ANALOG}"
+  ],
+  "placed_section_model_value_properties": [
+    "{MODEL=LX_NPN_SSLF,BIPOLAR}",
+    "{MODFILE=LEDA}",
+    "{VF=2.2V}",
+    "{R(0)=1M}",
+    "{R(1)=200K}",
+    "{R(2)=100K}",
+    "{R(3)=50K}",
+    "{R(4)=20K}",
+    "{R(5)=10K}",
+    "{R(6)=5K}",
+    "{R(7)=2K}",
+    "{R(8)=1K}",
+    "{R(9)=500}"
+  ],
+  "runtime_open_run_save_reopen": "NOT_TESTED",
+  "inspection_scope": "Archive integrity, XML syntax and embedded design identifiers only; not a simulation or complete netlist validation.",
+  "video_id": "sDMib8qdAAg",
+  "video_url": "https://www.youtube.com/watch?v=sDMib8qdAAg",
+  "project_file": "Torch_LDR_Led.pdsprj",
+  "source_bytes_preserved": true,
+  "video_content_correlation_checks": [
+    {
+      "check": "BC547 and green LED",
+      "pass": true
+    },
+    {
+      "check": "9 V, 470 ohms, 100K value strings",
+      "pass": true
+    },
+    {
+      "check": "LDR resistance parameters",
+      "pass": true
+    }
+  ]
+}

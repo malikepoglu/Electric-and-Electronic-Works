@@ -1,0 +1,68 @@
+{
+  "archive_crc": "PASS",
+  "xml_parse": "PASS",
+  "entries": [
+    "PROJECT.XML",
+    "ROOT.CDB",
+    "ROOT.DSN",
+    "SCRIPTS/PWRRAILS.DAT"
+  ],
+  "native_bytes": 13418,
+  "sha256": "051b917e9c74b7a140f382e53742130829fd5a69f144d7d70024ced23c460cb1",
+  "project_release_identifier": "804",
+  "project_file_version_identifier": "805",
+  "model_file_identifiers": [
+    "BIPOLAR.MDF",
+    "DCIMETER.MDF",
+    "DCVMETER.MDF",
+    "LEDA.MDF"
+  ],
+  "placed_section_primitive_properties": [
+    "{PRIMITIVE=PASSIVE,RTSWITCH}",
+    "{PRIMITIVE=ANALOGUE,CAPACITOR}",
+    "{PRIMITIVE=ANALOGUE,NPN}",
+    "{PRIMITIVE=ANALOG}",
+    "{PRIMITIVE=ANALOG}",
+    "{PRIMITIVE=ANALOG}",
+    "{PRIMITIVE=PASSIVE,RTSWITCH}"
+  ],
+  "placed_section_model_value_properties": [
+    "{R(0)=100M}",
+    "{R(1)=100m}",
+    "{MODEL=LX_NPN_SSLF,BIPOLAR}",
+    "{MODFILE=LEDA}",
+    "{VF=2.2V}",
+    "{LOAD=100M}",
+    "{MODFILE=DCVMETER}",
+    "{LOAD=100M}",
+    "{MODFILE=DCVMETER}",
+    "{MODFILE=DCIMETER}",
+    "{MODFILE=DCIMETER}",
+    "{R(0)=100M}",
+    "{R(1)=100m}"
+  ],
+  "runtime_open_run_save_reopen": "NOT_TESTED",
+  "inspection_scope": "Archive integrity, XML syntax and embedded design identifiers only; not a simulation or complete netlist validation.",
+  "video_id": "c5b6sTHSjEc",
+  "video_url": "https://www.youtube.com/watch?v=c5b6sTHSjEc",
+  "project_file": "electrolytic_capacitor_transistor_led.pdsprj",
+  "source_bytes_preserved": true,
+  "video_content_correlation_checks": [
+    {
+      "check": "BC547 and red LED",
+      "pass": true
+    },
+    {
+      "check": "9 V, 470 ohms, 10k, 1000uF value strings",
+      "pass": true
+    },
+    {
+      "check": "two DC voltmeter model instances",
+      "pass": true
+    },
+    {
+      "check": "two DC ammeter model instances",
+      "pass": true
+    }
+  ]
+}
